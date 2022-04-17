@@ -1,0 +1,40 @@
+.how-it-works-desktop{
+  padding-bottom: 50px;
+  display: none;
+  @include xl() {
+    display: block;
+  }
+  &__title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 162px;
+  }
+  
+  &__content{
+    background-image: url('/images/dist/how-it-works-bg.png');
+    background-size: contain, 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  &__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    grid-row-gap: 150px;
+    max-width: 838px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  &__cards-bg{
+    left: -340px;
+    position: absolute;
+    top: -40px;
+  }
+}

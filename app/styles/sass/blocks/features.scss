@@ -1,0 +1,258 @@
+
+    .features {
+        padding-top: 70px;
+        background:   url('/images/dist/features-back.png') no-repeat,
+            #171718;
+            
+      
+        ;
+
+        background-size: cover;
+
+        &__container {
+            padding: 0 20px;
+        }
+        &__block{
+            width:280px;
+            margin: 0 auto;
+        }
+        &__pic {
+            width: 200px;
+            margin: 0 auto;
+        }
+
+        &__pic img {
+            
+            width: 200px;
+        }
+        &__secure-pic{
+            width: 280px;
+            margin:0 auto;
+        }
+        &__secure-pic img {
+            width: 280px;
+            
+        }
+
+        &__title {
+            font-size: 16px;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 30px;
+
+        }
+
+        &__description {
+            font-size: 12px;
+            color: white;
+            text-align: center;
+
+        }
+
+        &__underline {
+            width: 200px;
+            margin: 40px auto;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    }
+
+    .hide {
+        display: none;
+    }
+
+
+
+@media screen and (min-width:768px) {
+
+    .features{
+        &__block{
+            width:520px;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media screen and (min-width:1200px){
+    .hide {
+        display: block;
+    }
+    .features {
+        background:url('/images/dist/features-background.png') no-repeat,
+        url('/images/dist/Geometry Pattrn.png') no-repeat,
+        #171718;
+        background-size:contain;
+        &__container {
+            padding: 0 50px;    
+        }
+        &__block {
+            display: none;
+
+        }
+
+        &__pay-content {
+            width:1200px;
+            margin: 0 auto;
+            display: flex;
+            padding-top: 100px;
+        }
+
+        &__pay-info {
+            padding-top: 100px;
+            width: 560px;
+        }
+
+        &__pay-title {
+            font-size: 22px;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        &__pay-description {
+            font-size: 18px;
+            color: #fff;
+            margin-bottom: 25px;
+        }
+
+        &__pay-systems {
+            display: flex;
+            align-items: center;
+        }
+
+        &__pay-systems-item {
+            margin-right: 40px;
+        }
+
+        &__links {
+            display: flex;
+            width: 700px;
+            margin: 0 auto;
+            padding-bottom: 110px;
+            justify-content: center;
+
+        }
+
+        &__links-item {
+            margin-right: 100px;
+            font-size: 18px;
+            color: #FFFFFF;
+            opacity: 0.4;
+            text-decoration: underline;
+            cursor:pointer;
+        }
+
+      
+        &__links-item:hover {
+            color: #EF8B54;
+           
+
+        }
+
+        &__slider {
+            overflow: hidden;
+        }
+
+        &__underline {
+            display: none;
+        }
+
+        
+
+}
+}
+
+@media screen and (min-width:1920px) {
+    .hide {
+        display: block;
+    }
+
+    .features {
+
+        background:
+
+            url('/images/dist/features-background.png') no-repeat,
+            url('/images/dist/Geometry Pattrn.png') no-repeat,
+            #171718;
+            background-size: contain;
+
+
+        &__container {
+            padding: 0 250px;
+        }
+
+        &__block {
+            display: none;
+
+        }
+
+        &__pay-content {
+            display: flex;
+            padding-top: 190px;
+        }
+
+        &__pay-info {
+            padding-top: 140px;
+            width: 560px;
+        }
+
+        &__pay-title {
+            font-size: 26px;
+            color: #fff;
+            margin-bottom: 40px;
+        }
+
+        &__pay-description {
+            font-size: 18px;
+            color: #fff;
+            margin-bottom: 40px;
+        }
+
+        &__pay-systems {
+            display: flex;
+            align-items: center;
+        }
+
+        &__pay-systems-item {
+            margin-right: 40px;
+        }
+
+        &__links {
+            display: flex;
+            width: 700px;
+            margin: 0 auto;
+            padding-bottom: 110px;
+
+        }
+
+        &__links-item {
+            margin-right: 100px;
+            font-size: 18px;
+            color: #FFFFFF;
+            opacity: 0.4;
+            text-decoration: underline;
+        }
+
+        &__links-item:hover {
+            color: #EF8B54;
+
+        }
+
+        &__slider {
+            overflow: hidden;
+        }
+
+        &__underline {
+            display: none;
+        }
+
+
+    }
+
+    .web-pay-pic {
+        display: block;
+        margin-right: 125px;
+
+    }
+
+
+
+}

@@ -1,0 +1,273 @@
+
+
+    .start-page {
+        background: url('/images/dist/start-back.png') no-repeat,
+            #161616;
+        background-size: cover;
+
+        &__container {
+            padding: 0 30px;
+        }
+  
+        &__header {
+            display: flex;
+            padding-top: 30px;
+        }
+
+        &__logo-title {
+            font-size: 12px;
+            color: #FF834E;
+            display: flex;
+            padding-top: 5px;
+        }
+
+        &__basket {
+            margin-right: 5px;
+        }
+
+        &__title {
+            font-size: 21px;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        &__description {
+            display: none;
+        }
+
+        &__watermark {
+            display: none;
+        }
+        &__code-background {
+           display:none;    
+        }
+    }
+
+    .phone-pic {
+        position: relative;
+        width: 202px;
+        margin: 0 auto;
+        margin-top: 24px;
+        margin-bottom: 100px;
+
+        &__background {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: linear-gradient(180deg, rgba(167, 47, 114, 0.7) 0%, rgba(255, 106, 106, 0) 100%);
+        }
+
+        &__image {
+            position: absolute;
+            z-index: 1;
+            top: -5px;
+            left: 15px;
+        }
+    }
+
+    .phone-large-pic {
+        display: none;
+    }
+
+    .back-call {
+        width: 280px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+
+        &__description {
+            text-align: center;
+            font-size: 12px;
+            color: #fff;
+            margin-top: 10px;
+        }
+    }
+
+    .back-call-button {
+        z-index:10;
+        display: flex;
+
+        &__title {
+            background-color: #FF834E;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            padding-right: 70px;
+           
+        }
+    }
+
+    .hide-button {
+        display: none;
+    }
+
+    .arrow-button {
+        width: 48px;
+        height: 50px;
+        background-color: #DE774B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border: none;
+    }
+
+@media screen and (min-width:768px) {
+     .start-page{
+        &__header{
+            width:188px;
+        
+            text-align: center;
+        }
+        &__title {
+            font-size: 34px;
+            width: 700px;
+        }
+     }
+}
+
+@media screen and (min-width:1200px) {
+    .start-page {
+      position: relative;
+         background:
+                url('/images/dist/start-back lg.png') no-repeat,
+                #161616;
+              
+
+                &__container {
+                    padding: 0 100px;
+                } 
+                &__content {
+                    position:relative;
+                    margin:0 auto;
+                    max-width: 1920px;
+                }
+               
+                
+                &__header {
+                    padding-top: 200px;
+                }
+                &__title {
+                    font-size: 36px;
+                    width: 550px;
+                }
+
+                &__watermark {
+                    display: block;
+                    width: 595px;
+                    position: absolute;
+                    top: 80px;
+                    right: -30px;
+                   
+                }
+            }
+        
+                .phone-pic {
+                    display:none;
+                }
+                
+                .phone-large-pic {
+                    display: block;
+                    position: absolute;
+                    top: 100px;
+                    right: 10px;
+                }
+         
+                .back-call {
+                    padding-top: 240px;
+                    margin: 0;
+                    padding-bottom: 180px;
+            
+                    &__description {
+                        font-size: 14px;
+                        text-align: start;
+                    }
+                }
+            
+         
+        }
+        
+
+@media screen and (min-width:1920px) {
+    .start-page {
+       position: relative;
+         background:
+                url('/images/dist/start-back lg.png') no-repeat,
+                #161616,
+            ;
+         background-size:cover;   
+      
+            &__container {
+                padding: 0 250px;
+            }
+            &__content {
+                position:relative;
+                margin:0 auto;
+                max-width: 1920px;
+            }
+
+
+        &__header {
+            padding-top: 200px;
+        }
+
+        
+
+        &__title {
+            font-size: 52px;
+            width: 824px;
+        }
+
+        &__description {
+            display: block;
+            font-size: 20px;
+            color: white;
+        }
+
+        &__watermark {
+            display: block;
+            width: 595px;
+            position: absolute;
+            top: 80px;
+            right: -30px;
+           
+        }
+
+    }
+
+    .phone-pic {
+        display: none;
+    }
+
+    .phone-large-pic {
+        display: block;
+        position: absolute;
+        top: 100px;
+        right: -30px;
+       
+    }
+
+    .back-call {
+        padding-top: 240px;
+        margin: 0;
+        padding-bottom: 180px;
+
+        &__description {
+            font-size: 14px;
+            text-align: start;
+        }
+    }
+
+    .back-call-button {
+        display: none;
+    }
+
+    .hide-button {
+        display: flex;
+        font-size: 16px;
+        z-index: 10;
+        
+
+    }
+
+}

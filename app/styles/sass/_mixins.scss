@@ -1,0 +1,8 @@
+$xl: 1440px;
+
+@mixin xl {
+  @media (min-width: $xl) {
+    @content;
+  }
+}
+

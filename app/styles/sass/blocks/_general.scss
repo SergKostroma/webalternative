@@ -1,0 +1,25 @@
+// GENERAL PROJECT STYLES
+body{
+    background-color: #161616;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color:white;
+}
+
+p{
+    margin: 0;
+}
+.link-wrapper{
+    display:block;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Roboto:wght@300;500&family=Source+Sans+Pro:wght@300&display=swap');
+
